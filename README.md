@@ -6,7 +6,7 @@ Rachana Rizhkant Zha [rzha@stevens.edu](mailto:rzha@stevens.edu)
 https://github.com/RachanaZha/CS515
 
 
-#Game Description
+# Game Description
 
 Provided the map which is used is the map provided by me, then the game is about saving the princess. You have to find and enter the room where the princess is locked in a cage and use a key to unlovk the cage and thats how you win the game!
 
@@ -17,7 +17,7 @@ the Number of hours spent is 40+ hours of coding , testing , debugging an fixing
 
 
 
-# a description of how you tested your code
+# A description of how you tested your code
 
 To begin with, I designed the code to take a .map file as an input argument. This file contained information about the game's layout, including the number of rooms, their descriptions, and the items within them.
 
@@ -39,7 +39,7 @@ Overall, this thorough testing process helped to ensure that the code was functi
 
 
 
-#Any bugs or issues you could not resolve
+# Any bugs or issues you could not resolve
 
 There are no unresolved bugs and issues . I tried to resolve as many issues as possible and make the code error free. As of now i havent encountered any known errors or bugs.
 
@@ -47,7 +47,7 @@ There are no unresolved bugs and issues . I tried to resolve as many issues as p
 
 
 
-#An example of a difficult issue or bug and how you resolved
+# An example of a difficult issue or bug and how you resolved
 
 One major issue i faced was related to a verb that requires something to be written after it. I had not implemented a check for blank input, so if a player entered the verb but did not specify a direction, the code would still execute the verb and move the player in the default direction. To resolve this issue, I took the input and stored each word in a list, and checked if the second word in the list was blank. However, this caused an index error when the list only contained the verb in the 0th index. To fix this, I checked the entire command as a string and made sure that there was something written after the verb. If there was only blank spaces given, we gave the respective error message.
 
@@ -55,7 +55,7 @@ One major issue i faced was related to a verb that requires something to be writ
 
 
 
-a list of the three extensions you’ve chosen to implement, with appropriate detail on them for the CAs to evaluate them (i.e., what are the new verbs/features, how do you exercise them, where are they in the map)
+# A list of the three extensions you’ve chosen to implement, with appropriate detail on them for the CAs to evaluate them (i.e., what are the new verbs/features, how do you exercise them, where are they in the map)
 
 Drop Verb: The drop verb is the opposite of get. It allows the player to take something from their inventory and put it down in the current room. The player can only drop items that they already have in their inventory. The drop verb is exercised by typing "drop [object]" in the command line. This extension can be found in the adeventure.py file.
 
@@ -64,7 +64,7 @@ Help Verb: In complicated text adventures, it can be hard to keep track of what 
 Locked Doors: This extension adds locked doors to the game. The player must find a key in the current room or another room to unlock the door and proceed. The locked doors are represented as special objects in the game, and the keys are also represented as objects that can be picked up and used. The locked cage extension is exercised by typing "unlock [object]" in the command line. This extension can be found in the adeventure.py file
 
 
-#How to play the game 
+# How to play the game 
 Provided that the map is used is the one submitted by me-The game is all about saving the princess and freeing her from the locked cage. To achieve this, you need to navigate through different rooms and collect the key to unlock the cage. The map consists of several rooms, including the entrance room, armory, tower, library, and princess room. Each room has certain exits and inventories that you can explore.
 
 Please find below a pictorial representation of the map:
