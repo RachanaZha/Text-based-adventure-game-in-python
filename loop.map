@@ -1,0 +1,47 @@
+[    
+    {        
+        "name": "The Entrance",        
+        "desc": "You are standing at the entrance to a castle.",        
+        "exits": {                       
+                "south": "Tower"        
+                },        
+                "items": ["rope"]
+    },
+    {
+        "name": "Tower",
+        "desc": "You are in the tower of the kingdom now",
+        "exits": {
+            "south": "Armory",
+            "east": "Princess's room"
+        },
+        "items": ["shield"]
+    },
+    {
+        "name": "Library",
+        "desc": "You are in the Library surrounded by books",
+        "exits": {
+            "north": "Princess's room",
+            "west": "Tower"
+        },
+        "items": ["key"]
+    },
+    {
+        "name": "Armory",
+        "desc": "You are in the armory. There are weapons and armor hanging on the walls.",
+        "exits": {
+            "north": "Tower",
+            "east": "Library"
+        },
+        "items": ["sword"]
+    },
+    {
+        "name": "Princess's room",
+        "desc": "You are in the princess's room. She is locked in a cage in the corner of the room. To win the game you need to unlock the cage using a key and save the princess",
+        "exits": {
+            "south": "Library",
+            "east": "Tower"
+        },
+        "items": ["rose"]
+    }
+]
+
