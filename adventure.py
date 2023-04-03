@@ -19,7 +19,7 @@ for room_name,room_data in rooms.items():
         raise ValueError(f"no exits defined for {room_name}")
 
 # Start game in room "The entrance"
-current_room = rooms["The Entrance"]
+current_room = list(rooms.values())[0]
 
 # Print room description
 print("> " + current_room["name"])
