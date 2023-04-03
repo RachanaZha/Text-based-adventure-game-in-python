@@ -7,6 +7,7 @@ Rachana Rizhkant Zha [rzha@stevens.edu](mailto:rzha@stevens.edu)
 
 
 #Game Description
+
 Provided the map which is used is the map provided by me, then the game is about saving the princess. You have to find and enter the room where the princess is locked in a cage and use a key to unlovk the cage and thats how you win the game!
 
 # Hours spent
