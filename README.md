@@ -1,7 +1,7 @@
-# Princess Rescue Game
+# Text based adventure game in python
 
 ## Overview
-Embark on an exciting Python text-based adventure to save the princess from a locked cage. Navigate through various rooms, collect the key, and unlock the cage to emerge victorious.
+The game can be customized by using different maps. For the Map that i have provided the game is a princess rescue game. Embark on an exciting Python text-based adventure to save the princess from a locked cage. Navigate through various rooms, collect the key, and unlock the cage to emerge victorious.
 
 ## GitHub Repository
 Explore the game's source code and assets: [Rescue the princess python game](https://github.com/RachanaZha/CS515)
