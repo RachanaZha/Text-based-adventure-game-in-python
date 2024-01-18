@@ -38,4 +38,72 @@ From the library, go north to reach the princess room.
 Use the "unlock cage" command to unlock the cage and save the princess.
 Have fun playing the game and good luck on your quest to save the princess!
 
+## Demo Run
+Here's a demo run of the game:
+
+> The Entrance
+
+You are standing at the entrance to a castle.
+
+Exits: south
+
+Items: rope
+
+What would you like to do? go south
+
+> Tower
+
+You are in the tower of the kingdom now.
+
+Exits: south, east
+
+Items: shield
+
+What would you like to do? go south
+
+> Armory
+
+You are in the armory. There are weapons and armor hanging on the walls.
+
+Exits: north, east
+
+Items: sword
+
+What would you like to do? go east
+
+> Library
+
+You are in the Library surrounded by books.
+
+Exits: north, west
+
+Items: key
+
+What would you like to do? get key
+
+You pick up the key.
+
+What would you like to do? go north
+
+> Princess's Room
+
+You are in the princess's room. She is locked in a cage in the corner of the room. To win the game, you need to unlock the cage using a key and save the princess.
+
+Exits: south, east
+
+Items: rose
+
+What would you like to do? unlock cage
+
+Congratulations! You have rescued the princess and won the game!
+
+Enjoy the quest and good luck on your mission to rescue the princess!
+
+
+
+
+
+
+
+
 
